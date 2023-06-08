@@ -109,7 +109,7 @@ olcRootDN: cn=Manager,dc=cdac,dc=in
 dn: olcDatabase={2}mdb,cn=config
 changetype: modify
 add: olcRootPW
-olcRootPW:SHA}P7aFum2pErtqJq9d9tO/gZBBehrP4V2l
+olcRootPW: {SHA}xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 dn: olcDatabase={2}mdb,cn=config
 changetype: modify
