@@ -1,0 +1,16 @@
+****************Nagios********************
+
+
+#yum install http://build.openhpc.community/OpenHPC:/1.3/CentOS_7/x86_64/ohpc-release-1.3-1.el7.x86_64.rpm
+#yum -y install ohpc-nagios
+#cd /etc/nagios/
+#htpasswd -bc /etc/nagios/passwd nagiosadmin nagiosadmin
+#systemctl start nagios
+#systemctl status nagios
+#systemctl enable nagios
+#systemctl status httpd
+
+
+Take Machine Ip and put in Web browser 
+
+http://192.168.20.161/nagios/
